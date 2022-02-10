@@ -1,0 +1,24 @@
+{
+    "description": "I13e.ButtonEditor:ButtonEditor",
+    "license": "GNU GPLv3",
+    "private": true,
+    "engines": {
+        "node": ">=16"
+    },
+    "scripts": {
+        "build": "NODE_ENV=production neos-react-scripts build",
+        "watch": "neos-react-scripts watch",
+        "lint": "eslint src && stylelint 'src/**/*.css'"
+    },
+    "devDependencies": {
+        "@neos-project/build-essentials": "^7.3.0",
+        "@neos-project/eslint-config-neos": "^2.3.0",
+        "@neos-project/neos-ui-extensibility": "^7.3.0",
+        "@neos-project/react-ui-components": "^7.3.0",
+        "webpack": "^4.44.0"
+    },
+    "neos": {
+        "buildTargetDirectory": "../../Public/ButtonEditor"
+    },
+    "main": "src/index.js"
+}

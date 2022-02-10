@@ -1,0 +1,12 @@
+.buttonEditor {
+
+}
+
+.button {
+    outline: 1px solid #222;
+}
+.buttonEditor .button {
+    margin-right: 2px;
+    font-size: 20px;
+}
+

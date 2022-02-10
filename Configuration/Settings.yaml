@@ -1,0 +1,13 @@
+Neos:
+  Neos:
+    Ui:
+      resources:
+        javascript:
+          'I13e.ButtonEditor:ButtonEditor':
+            resource: resource://I13e.ButtonEditor/Public/ButtonEditor/Plugin.js
+        stylesheets:
+          'I13e.ButtonEditor:ButtonEditor':
+            resource: resource://I13e.ButtonEditor/Public/ButtonEditor/Plugin.css
+      frontendConfiguration:
+        'I13e.ButtonEditor:ButtonEditor':
+          foo: bar

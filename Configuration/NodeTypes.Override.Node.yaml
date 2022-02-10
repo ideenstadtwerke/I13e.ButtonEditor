@@ -1,0 +1,5 @@
+'Neos.Neos:Node':
+  postprocessors:
+    'ButtonEditorI18nPostprocessor':
+      position: 'end'
+      postprocessor: 'I13e\ButtonEditor\NodeTypePostprocessor\ButtonEditorI18nPostprocessor'
