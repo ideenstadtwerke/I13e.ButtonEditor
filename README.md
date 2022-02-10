@@ -77,24 +77,24 @@ As you may have realized, the configuration is nearly completely compatible with
 
 ### Multiple with allowEmpty
 ```yaml
-          editorOptions:
-            allowEmpty: true
-            multiple: true
-            values:
-              # define your own
+editorOptions:
+  allowEmpty: true
+  multiple: true
+  values:
+    # define your own
 ```
 
 ![Format](https://static.i13e.de/I13e.ButtonEditor/format.gif)
 
 ### Multiple with allowEmpty:
 ```yaml
-          editorOptions:
-            allowEmpty: true
-            values:
-              toggle:
-                label: i18n
-                icon: toggle-off
-                iconActive: toggle-on
+editorOptions:
+  allowEmpty: true
+  values:
+    toggle:
+      label: i18n
+      icon: toggle-off
+      iconActive: toggle-on
 ```
 
 ![Toggle](https://static.i13e.de/I13e.ButtonEditor/toggle.gif)
