@@ -8,6 +8,3 @@ Neos:
         stylesheets:
           'I13e.ButtonEditor:ButtonEditor':
             resource: resource://I13e.ButtonEditor/Public/ButtonEditor/Plugin.css
-      frontendConfiguration:
-        'I13e.ButtonEditor:ButtonEditor':
-          foo: bar
